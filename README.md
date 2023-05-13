@@ -35,24 +35,26 @@ The Flight Reservation System is a C++ command-line application that manages fli
 ## Examples
 - Adding a flight:
 
+ ```
  Enter command: addflight AA001 LAX JFK 200 10:00 18:00
   Flight AA001 added.
-  
+```  
 
 - Listing flights:
-
+```
  Enter command: listflights LAX JFK 08:00
   AA001, LAX to JFK, 10:00 - 18:00, 200 seats available.
-  
+  ```
 
 - Reserving a seat:
-
+```
  Enter command: reserveseat AA001 John Doe
   Reservation successful. Reservation number is 1.
-  
+  ```
 
 - Canceling a reservation:
-
+```
  Enter command: cancelreservation 1
   Reservation 1 cancelled.
   
+```
